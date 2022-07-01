@@ -73,14 +73,6 @@ public class Eisigisi {
 		this.date = date;
 	}
 
-	public String getΕισήγηση() {
-		return this.eisigisiText;
-	}
-
-	public void setΕισήγηση(String Εισήγηση) {
-		this.eisigisiText = Εισήγηση;
-	}
-
 	public ArrayList<Melos> getListaMelwn() {
 		return this.listaMelwnPsifoforias;
 	}
