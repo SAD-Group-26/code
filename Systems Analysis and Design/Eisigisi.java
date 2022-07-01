@@ -15,8 +15,6 @@ public class Eisigisi {
 	public Eisigisi() {
 		
 		this.listaMelwnPsifoforias = new ArrayList<Melos>();
-		
-		//it seems to work for now TODO--check if it works without it
 		for(Melos m:ListaMelwn.ListaMelwn().getMeli_EHDE()){
 			this.listaMelwnPsifoforias.add(m);
 		}
@@ -37,8 +35,7 @@ public class Eisigisi {
 	}
 	
 	public boolean psifisaneOloi() {
-
-		//+1 διότι είναι ο πρόεδρος και ο εισηγητής αφαιρείται από την λίστα που μπορούν να ψηφίσουν
+		//+1 Ξ΄ΞΉΟΟ„ΞΉ ΞΏ Ο€ΟΟΞµΞ΄ΟΞΏΟ‚ Ξ­Ο‡ΞµΞΉ Ξ΄ΞΉΞΊΞ±Ξ―Ο‰ΞΌΞ± ΟΞ®Ο†ΞΏΟ…
 		return this.getListaMelwn().size() + 1 == psifoi;
 	}
 	public String getEisigisiText() {
