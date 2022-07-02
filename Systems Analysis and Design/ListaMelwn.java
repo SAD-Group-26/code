@@ -29,7 +29,6 @@ public class ListaMelwn {
 	 * @param melos
 	 */
 	public boolean prostheseMelos(Melos melos) {
-		// TODO - implement ListaMelwn.prostheseMelos
 		if(melos !=null) {
 			this.Meli_EHDE.add(melos);
 			return true;
@@ -42,7 +41,6 @@ public class ListaMelwn {
 	 * @param melos
 	 */
 	public void diagrapseMelos(Melos melos) {
-		// TODO - implement ListaMelwn.diagrapseMelos
 		this.Meli_EHDE.remove(melos);
 	}
 	

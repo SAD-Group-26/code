@@ -116,14 +116,14 @@ public class Eisigisi {
 	}
 	
 	public void calculateResult() {
-		// TODO Auto-generated method stub
+		
 		if(!this.psifisaneOloi()) {
 			System.out.println("not everybody voted yet");
 			return;
 		}
 		this.result = this.currentVotesScore > 0;
 		String message = (result)? "Ginetai Apodekth":"Aporriptetai";
-		System.out.println(message);
+		
 	}
 
 }

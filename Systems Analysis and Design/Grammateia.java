@@ -35,7 +35,7 @@ public class Grammateia {
 		listaAitisewn.emfaniseAitiseis(PhasesOfAitisi.ELEGXOS);
 	}
 	public boolean protokollisiAitisis(Aitisi aitisi) {
-		// TODO - implement Γραμματεία.protokollisiAitisis
+		
 		if(aitisi.getVisibilityPhase() == PhasesOfAitisi.ELEGXOS) {
 			//protokollhsh
 			aitisi.setInqueueNumber(++current_queue_number);
@@ -51,7 +51,6 @@ public class Grammateia {
 	 * @param aitisi
 	 */
 	public boolean aporripsiAitisis(Aitisi aitisi) {
-		// TODO - implement Γραμματεία.aporripsiAitisis
 		if(aitisi.getVisibilityPhase() == PhasesOfAitisi.ELEGXOS) {
 			
 			aitisi.setVisibilityPhase(PhasesOfAitisi.APORRIPSH);
@@ -65,8 +64,7 @@ public class Grammateia {
 	 * @param aitisi
 	 */
 	public void diavaseAitisi(Aitisi aitisi) {
-		// TODO - implement Γραμματεία.diavaseAitisi
-		throw new UnsupportedOperationException();
+		aitisi.printData();
 	}
 
 	/**
@@ -74,7 +72,6 @@ public class Grammateia {
 	 * @param aitisi
 	 */
 	public boolean enimerwseEreuniti(Aitisi aitisi) {
-		// TODO - implement Γραμματεία.enimerwseEreunitiGiaVeltiwseis
 		if(aitisi.getEisigisi().getResult()) {
 			aitisi.setVisibilityPhase(PhasesOfAitisi.ENHMERWSH_GIA_APODOXH);
 		}else {

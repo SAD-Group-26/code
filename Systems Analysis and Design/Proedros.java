@@ -43,12 +43,7 @@ public class Proedros {
 		this.password = password;
 	}
 
-	/**
-	 * 
-	 * @param parameter
-	 */
 	public void anetheseEisigisi(Melos eisigitis,Aitisi aitisi) {
-		// TODO - implement Πρόεδρος.anetheseEisigisi
 		
 		if (aitisi.getVisibilityPhase() == PhasesOfAitisi.ORISMOS_EISIGITI) {
 			if (aitisi.getEisigisi().getListaMelwn().contains(eisigitis)) {
@@ -79,7 +74,6 @@ public class Proedros {
 		aitisi.getEisigisi().calculateResult();
 	}
 	public void psifiseGiaEisigisi(int psifos, Eisigisi eisigisi) {
-		// TODO - implement Πρόεδρος.psifiseGiaEisigisi
 
 		eisigisi.registerVote(psifos);
 	}
@@ -90,7 +84,6 @@ public class Proedros {
 	 * @param apofasi
 	 */
 	public boolean grapseApofasi(String text, Apofasi apofasi) {
-		// TODO - implement Πρόεδρος.grapseApofasi
 		apofasi.setText(text);
 		return true;
 	}
@@ -100,7 +93,6 @@ public class Proedros {
 	 * @param melos
 	 */
 	public boolean apokleismosMelous(Melos melos,Eisigisi e) {
-		// TODO - implement Πρόεδρος.apokleismosMelous
 		e.apomakryneMelos(melos);
 		return true;
 	}
@@ -110,13 +102,11 @@ public class Proedros {
 	 * @param apofasi
 	 */
 	public void ypograpseApofasiAitisis(Aitisi aitisi) {
-		// TODO - implement Πρόεδρος.ypograpseApofasi
 		if(aitisi.getVisibilityPhase() != PhasesOfAitisi.APOFASH )return ;
 		aitisi.getApofasi().setText(aitisi.getApofasi().getText().concat("\nO Ypografwn: \n " + this.getEmail()));
 		aitisi.setVisibilityPhase(PhasesOfAitisi.ENHMERWSH_EREYNHTH);
 
 	}
-	
 	
 	public void printData() {
 		System.out.println("PROEDROS: " + this.getEmail() + "password ");

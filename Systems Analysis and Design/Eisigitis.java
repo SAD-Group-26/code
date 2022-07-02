@@ -7,6 +7,7 @@ public class Eisigitis extends Melos {
 	
 	public Eisigitis(Melos m) {
 		super(m.getEmail(),m.getPassword());
+		this.Extra_Info = "";
 	}
 
 	
@@ -16,7 +17,7 @@ public class Eisigitis extends Melos {
 	 * @param text
 	 */
 	public void dimiourgiseEisigisi(String text) {
-		// TODO - implement ÅéóçãçôÞò.dimiourgiseEisigisi
+		// TODO - implement ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.dimiourgiseEisigisi
 		
 	}
 

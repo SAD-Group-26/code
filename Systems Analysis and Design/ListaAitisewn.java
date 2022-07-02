@@ -28,7 +28,6 @@ public class ListaAitisewn {
 	 * @param aitisi
 	 */
 	public boolean prostheseAitisi(Aitisi aitisi) {
-		// TODO - implement ListaAitiseon.prostheseAitisi
 		if(aitisi!=null) {			
 			this.aitiseis.add(aitisi);
 			return true;
@@ -49,7 +48,6 @@ public class ListaAitisewn {
 	}
 
 	public void printData() {
-		// TODO - implement ListaAitiseon.printData
 		for(Aitisi a:aitiseis) {
 			System.out.println("\n");
 			a.printData();

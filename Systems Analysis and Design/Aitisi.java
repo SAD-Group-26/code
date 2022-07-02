@@ -38,6 +38,7 @@ public class Aitisi {
 		this.subject = subject;
 		this.files = arxeia;
 		this.date = new Date();
+		//Ξ‘ΟΟ‡ΞΉΞΊΞΏΟ€ΞΏΞΉΞΏΟΞΌΞµ Ο„Ξ·Ξ½ Ξ±Ξ―Ο„Ξ·ΟƒΞ· ΟƒΟ„Ξ·Ξ½ Ο€ΟΟΟ„Ξ· Ο†Ξ¬ΟƒΞ· Ο„Ξ·Ο‚ Ξ΄ΞΉΞ±Ξ΄ΞΉΞΊΞ±ΟƒΞ―Ξ±Ο‚
 		this.visibilityPhase = PhasesOfAitisi.PROETOIMASIA;
 		this.eisigisi = new Eisigisi();
 		this.ereunitis.prostheseAitisiStinListaTou(this);
@@ -96,9 +97,10 @@ public class Aitisi {
 	}
 
 	public void printData() {
-		System.out.println( "Aitisi [Αριθμός στην Ουρά =" + inqueueNumber + ", Θέμα=" + subject + ", Ημ/νία Υποβολής=" + date + ", Ερευνητής="
-				+ ereunitis + ", apofasi=" + apofasi + ", Αρχεία=" + files + ", Τίτλος=" + title + ", Φάση που βρίσκεται="
-				+ visibilityPhase + ", Εισήγηση=" + eisigisi + "]");
+		System.out.println( "Ξ‘Ξ―Ο„Ξ·ΟƒΞ· [Ξ‘ΟΞΉΞΈΞΌΟΟ‚ ΟƒΟ„Ξ·Ξ½ ΞΏΟ…ΟΞ¬ =" + inqueueNumber + ", ΞΞ­ΞΌΞ±=" + subject + ", Ξ—ΞΌ/Ξ½Ξ―Ξ± Ξ¥Ο€ΞΏΞ²ΞΏΞ»Ξ®Ο‚=" + date + 
+				", Ξ•ΟΞµΟ…Ξ½Ξ·Ο„Ξ®Ο‚="
+				+ ereunitis + ", Ξ‘Ο€ΟΟ†Ξ±ΟƒΞ·=" + apofasi + ", Ξ‘ΟΟ‡ΞµΞ―Ξ±=" + files + ", Ξ¤Ξ―Ο„Ξ»ΞΏΟ‚=" + title + ", Ξ¦Ξ¬ΟƒΞ· Ο„Ξ·Ο‚ Ξ±Ξ―Ο„Ξ·ΟƒΞ·Ο‚="
+				+ visibilityPhase + ", Ξ•ΞΉΟƒΞ®Ξ³Ξ·ΟƒΞ·=" + eisigisi + "]");
 	}
 	@Override
 	public String toString() {

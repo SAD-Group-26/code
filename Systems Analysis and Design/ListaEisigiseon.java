@@ -21,7 +21,6 @@ public class ListaEisigiseon {
 		eisigiseis = new ArrayList<Eisigisi>();
 	}
 	public void prostheseEisigisi(Eisigisi eisigisi) {
-		// TODO - implement ListaEisigiseon.prostheseEisigisi
 		eisigiseis.add(eisigisi);
 	}
 	

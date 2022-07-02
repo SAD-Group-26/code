@@ -33,13 +33,13 @@ public class Apofasi {
 	
 	
 	public void prostheseSxolio(String periexomeno) {
-		// TODO - implement Απόφαση.prostheseSxolio
+		
 		this.sxolia.add(periexomeno);
 	}
 
 	
 	public String toString() {
-		return "Apofasi [Κείμενο=" + text + ", Σχόλια=" + sxolia + "]";
+		return "Apofasi [Ξ‘Ο€ΟΟ†Ξ±ΟƒΞ·=" + text + ", Ξ£Ο‡ΟΞ»ΞΉΞ±=" + sxolia + "]";
 	}
 
 }

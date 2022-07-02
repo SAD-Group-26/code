@@ -10,14 +10,24 @@ public class ListaArxeion {
 	 * 
 	 * @param file
 	 */
+	
 	public ListaArxeion() {
 		fileList = new ArrayList<String>();
 		
 	}
 	
 
+	public ArrayList<String> getFileList() {
+		return fileList;
+	}
+
+
+	public void setFileList(ArrayList<String> fileList) {
+		this.fileList = fileList;
+	}
+
+
 	public void prostheseArxeio(String filename) {
-		// TODO - implement ListaArxeion.prostheseArxeio
 		this.fileList.add(filename);
 	}
 
@@ -26,7 +36,6 @@ public class ListaArxeion {
 	 * @param file
 	 */
 	public void diagrapseArxeio(String filename) {
-		// TODO - implement ListaArxeion.diagrapseArxeio
 		this.fileList.remove(filename);
 	}
 	
