@@ -111,7 +111,7 @@ public class Ereunitis {
 		for(Aitisi a: this.Lista_Aitisewn_Tou) {
 			switch (a.getVisibilityPhase()) {
 				case PROETOIMASIA:
-					currentMsg = "Δεν έχει γίνει ακόμη υποβολή";
+					currentMsg = "Δεν έχει γίνει ακόμα υποβολή";
 					break;
 				case ELEGXOS:
 					currentMsg = "Η αίτηση έχει σταλεί στην γραμματεία, δεν έχει ελεγχθεί ακόμα";
@@ -127,11 +127,11 @@ public class Ereunitis {
 					break;
 				default:
 					currentMsg = "Η αίτηση βρίσκεται στην διαδικασία ελέγχου από την ΕΗΔΕ";
-				
+					break;
 					
 					
 			}
-			System.out.println("Η Αίτηση:" + a);
+			System.out.println("Η αίτηση:" + a);
 			System.out.println("Κατάσταση: " + currentMsg);
 		}
 	}
